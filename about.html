@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Stylish-html-webpage">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>home.html</title>
+  	<script type="text/javascript" src="JS/jquery.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="CSS/SliderImage.css">
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/all.min.css">
+	<script src="JS/fontawesome.min.js"></script>
+
+</head>
+<body>
+
+<!--webpage er sokol content wrapper er vitore rakha ase-->
+<div class="container">
+
+<!--eikhan theke header-section soro-->
+	<div class="header-section">
+
+
+
+<!--companir logo ei sectioner vitore-->
+		<section class="logo-option">
+			<a href="#"><img src="photos/logoss.png"></a>
+		</section>
+<!--companir logo ei sectioner vitore ses-->
+
+
+
+<!--social link er item er sectioner vitore rakha ase-->
+		<section class="social">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-youtube"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin"></i>
+			<i class="fab fa-whatsapp"></i>
+			<i class="fab fa-twitter"></i>
+		</section>
+<!--social link er item er sectioner vitore ses-->
+
+
+
+	</div>
+<!--eikhan theke header-section ses-->
+
+
+
+<!--navigation item er sectioner vitore rakha ase-->
+<div class="navbar">
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li id="active"><a href="about.html">About</a></li>
+		<li><a href="dictionary.html">Dictionary</a></li>
+		<li><a href="language.html">Language</a></li>
+	</ul>
+
+	<form class="search">
+		<input type="search" name="" placeholder="Search">
+		<button class="btns"><b>Go</b></button>
+	</form>
+
+</div>
+<!--navigation er item er sectioner vitore ses-->
+
+
+<div class="ab-content">
+	<div class="display-item">
+		<div class="content-left">
+			<h2>We are Best Service Programer</h2>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Nihil totam amet quo reiciendis dicta, sed provident architecto porro, nostrum earum, impedit, sapiente? Quas consequuntur modi reprehenderit! Molestiae alias veritatis obcaecati iste, ducimus non modi, deserunt. Quasi commodi nesciunt eaque quaerat, quo est, cum excepturi, mollitia soluta, rem voluptatum odit amet!</p>
+			<button id="btn1">Learn</button>
+		</div>
+		<div class="content-right">
+			<img src="photos/image1.jpg" alt="picture">
+		</div>
+	</div>
+
+	<div class="cards">
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>Wordpress Designer & Developer</p>
+		</div>
+
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>Wordpress SEO expert</p>
+		</div>
+
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>Digital marketer</p>
+		</div>
+
+
+
+
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>Graphics logo & icon designer</p>
+		</div>
+
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>facebook marketer</p>
+		</div>
+
+		<div class="card-item">
+			<img src="photos/image2.jpg" alt="picture">
+			<h3>Milon koch</h3>
+			<p>Digital marketer & counsilor</p>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+	<div class="footer-section">
+		<div class="footer-widget">
+			<h3>About Hosting</h3>
+				<a href="#">Website documents</a><br>
+				<a href="#">Web domain Here</a><br>
+				<a href="#">Web Hosting Start</a><br>
+				<a href="#">Start with your plan</a>
+		</div>
+
+
+		<div class="footer-widget">
+			<h3>Spesefic Setting</h3>
+				<a href="#">Your site health</a><br>
+				<a href="#">Users profile </a><br>
+				<a href="#">User setting</a><br>
+				<a href="#">More option</a>
+
+		</div>
+
+		<div class="footer-widget">
+			<h3>Menubar</h3>
+				<a href="#">Home</a><br>
+				<a href="#">Blog</a><br>
+				<a href="#">About</a><br>
+				<a href="#">Service</a>
+		</div>
+
+
+		<div class="footer-widget">
+			<h3>Latest articles</h3>
+			<p>
+				We are learning html, css, javascipt, php, jQuery, bootstrap, react.js, 3D designing and more.We are learning html, css, javascipt, php, jQuery, bootstrap, react.js, 3D designing and more.We are learning html, css, javascipt, php, jQuery, bootstrap, react.js, 3D designing and more.
+			</p>
+		</div>
+	</div>
+
+		<div class="copy">
+			<p>Copyright: All right reserved by kochmega.com</p>
+		
+			<a href="#">privacy</a>
+			<a href="#">Terms</a>
+			<a href="#">Contact</a>
+		</div>
+</div>
+
+
+
+
+
+<!--------------JQuery function/method started here. scripts added in js folder------------------------>
+
+<script type="text/javascript" src="JS/jquery.min.js"></script>
+<script type="text/javascript" src="JS/jquery.ripples-min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".display-item").ripples({
+			resolution: 300,
+			perturbance: 0.05
+		})
+	})
+</script>
+<!------------------------------------------JQuery function/method started here-------------------------------->
+
+</body>
+</html>
