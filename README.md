@@ -1,2 +1,1 @@
-# Kochmega
-A powerfull megazine
+
