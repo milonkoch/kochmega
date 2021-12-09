@@ -1,0 +1,2 @@
+# kochmega
+a powerfull megazine
